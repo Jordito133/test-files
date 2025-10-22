@@ -1,6 +1,6 @@
 ## 1. Derivation of Euler's equation
 We will derive Euler's equations for an adiabatic and non-viscous fluid with a density $\rho(\mathbf{r},t)$ and velocity vector field $\mathbf{v}(\textbf{r},t)$ in a uniform gravitational field $\mathbf{g}$. We consider a fluid parcel of dimensions $dx$, $dy$ and $dz$ located at $\mathbf{r}=(x,y,z)$ in a Cartesian coordinate system. 
-![fig1](./img/diagram-1.png)
+![fig1](./diagram-1.png)
 Due to density fluctuations inside the fluid a pressure field $p(\mathbf{r},t)$ is present. The force on the fluid parcel depends on the variation of that pressure and the gravitational field present. In the $x$ direction the force from the pressure is 
 $$
 dF_x = (-p(x+dx,y,z)+p(x,y,z))dydz=\frac{(-p(x+dx,y,z)+p(x,y,z))}{dx}dxdydz=-\frac{\partial}{\partial x} pdV
@@ -14,7 +14,7 @@ dF_z = -\frac{\partial}{\partial z} pdV
 $$
 Including the gravitational force, the total on the parcel is
 $$d\mathbf{F}=(-\nabla p+\rho\mathbf{g})dV \tag{1.1}$$
-![fig2](./img/diagram-2.png)
+![fig2](./diagram-2.png)
 Using Newton's second law we get
 $$
 \begin{align}
@@ -56,7 +56,7 @@ $$\begin{align}
 \end{align}
 $$
 We will be using an adiabatic, non-viscous and incompressible fluid for our model of ship waves, which is described by $(1.8)$. One important clarification is to note that $\frac{d\mathbf{v}}{dt}$ is not equal to $\frac{\partial \mathbf{v}}{\partial t}$, as equation $(1.2)$ was derived by following the velocity of a single fluid parcel, and not the velocity field at that point. (<span style="color:red"> по-добро обяснение? </span>)
-![fig3](./img/diagram-3.png)
+![fig3](./diagram-3.png)
 Let us now create a formal connection between the two derivatives. We have
 $$
 \begin{align}
